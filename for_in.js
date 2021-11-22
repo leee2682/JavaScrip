@@ -7,7 +7,7 @@ var obj = {
 };
 
 console.log("for 구문으로 object property 반복하기");
-var property_list = Object.keys(obj);             // ➋
+var property_list = Object.keys(obj);
 console.log("Property List : ", property_list);
 
 for (var i = 0; i < property_list.length; i++ ) {
